@@ -49,7 +49,7 @@ const Navbar = () => {
                   <a>Website Builders</a>
                 </li>
                 <li>
-                  <a>Today's deals</a>
+                  <a>Todays deals</a>
                 </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                   <a>Website Builders</a>
                 </li>
                 <li>
-                  <a>Today's deals</a>
+                  <a>Todays deals</a>
                 </li>
           </ul>
         </div>
