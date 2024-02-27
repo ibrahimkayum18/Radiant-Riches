@@ -11,8 +11,8 @@ import { FaCheck } from "react-icons/fa6";
 
 const Cards = () => {
   return (
-    <div className="mt-20 ">
-      <div className="lg:flex bg-white pb-5 lg:pb-0 rounded-lg">
+    <div className="mt-12 ">
+      <div className="lg:flex bg-white lg:min-h-[255px] pb-5 lg:pb-0 rounded-lg">
         <Container
           className="w-full lg:w-[25%] pt-12 py-5 relative"
           sx={{
@@ -59,7 +59,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex bg-white pb-5 lg:pb-0 mt-7 rounded-lg">
+      <div className="lg:flex bg-white lg:min-h-[255px] pb-5 lg:pb-0 mt-7 rounded-lg">
         <Container
           className="w-full lg:w-[25%] pt-12 py-5 relative"
           sx={{
@@ -100,7 +100,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex bg-white pb-5 lg:pb-0 mt-7 rounded-lg">
+      <div className="lg:flex bg-white lg:min-h-[255px] pb-5 lg:pb-0 mt-7 rounded-lg">
         <Container
           className="w-full lg:w-[25%] pt-12 py-5 relative"
           sx={{
@@ -141,7 +141,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex bg-white my-7 pb-5 lg:pb-0 rounded-lg">
+      <div className="lg:flex bg-white  my-7 pb-5 lg:pb-0 rounded-lg">
         <Container
           className="w-full lg:w-[25%] pt-12 py-5 relative"
           sx={{
@@ -157,12 +157,14 @@ const Cards = () => {
           <span className="absolute top-0 right-0 lg:top-8 lg:-left-7 rounded-full w-14 h-14 flex items-center justify-center text-black text-2xl bg-white">4</span>
         </Container>
         <div className="w-full lg:w-[50%] py-5 px-5 lg:px-0">
-          <h1>
+          <h1 className="py-1">
           <span className="font-bold">CDK Resposive Builder:</span> An extensive library of widgets and apps, and detailed step-by-step guides
           </h1>
-          <p>26% Off</p>
-          <h1 className="font-bold">Main highlights</h1>
-          <div className="bg-[#FFF4ED] px-2 py-2 space-y-2 rounded-lg ml-5">
+          <span className="text-[#074786] py-1 px-2 bg-[#F2F4F7] rounded-lg mr-1">
+                26% Off
+              </span>
+          <h1 className="font-bold py-1">Main highlights</h1>
+          <div className="bg-[#FFF4ED] px-2 py-2 space-y-2 rounded-lg ml-5 mb-3 mt-1">
             <p><span className="px-2 py-1 bg-white rounded-lg">9.9</span> building responsive</p>
             <p><span className="px-2 py-1 bg-white rounded-lg">8.9</span> Cool</p>
             <p><span className="px-2 py-1 bg-white rounded-lg">8.9</span> Docs</p>
@@ -179,11 +181,11 @@ const Cards = () => {
         </div>
         <div className="w-full lg:w-[25%]">
           <div className="bg-[#F3F9FF] text-center w-[135px] h-[118px] mx-auto rounded-b-lg">
-            <h2 className="text-[32px] pt-1">9.3</h2>
-            <p className="pb-1">Exceptional</p>
+            <h2 className="text-[32px] pt-1">9.1</h2>
+            <p className="pb-1">Very Good</p>
             <Rating name="size-small" defaultValue={4} size="small" />
           </div>
-          <div className="text-center mt-5 lg:mt-52">
+          <div className="text-center mt-5 lg:mt-60">
             <button className="py-3 btn w-[232px] rounded-lg bg-[#1B88F4] text-white">
               {" "}
               View

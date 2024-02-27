@@ -111,9 +111,9 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center my-10">
-        <h1 className="text-4xl px-5">Sign up and get exclusive special deals</h1>
-        <div className="relative w-full max-w-md mx-auto">
+      <div className="lg:flex items-center px-5 lg:px-0 my-10">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl lg:px-10">Sign up and get exclusive special deals</h1>
+        <div className="relative w-full max-w-md mx-auto mt-6 lg:mt-0  ">
           <input
             type="text"
             className="block w-full pl-10 pr-12 py-3 border border-gray-300 rounded-l-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
