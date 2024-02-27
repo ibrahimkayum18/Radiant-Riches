@@ -7,7 +7,7 @@ const Headers = async () => {
   const options = { year: "numeric", month: "long", day: "numeric" };
   const formattedDate = currentDate.toLocaleDateString("en-US", options);
   return (
-    <div className="px-5 lg:px-0  overflow-hidden">
+    <div className="px-5 lg:px-0  overflow-hidden text-[#2C384A]">
       {/* Header Title */}
       <h3 className="text-3xl lg:text-5xl py-3 lg:py-5">Best Website builders in the US</h3>
       <div className="flex flex-wrap justify-between items-center py-4 border-y">

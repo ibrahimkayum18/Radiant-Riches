@@ -11,7 +11,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const Cards = () => {
   return (
-    <div className="mt-12 ">
+    <div className="mt-12 text-[#4B5665] ">
       <div className="lg:flex bg-white lg:min-h-[255px] pb-5 lg:pb-0 rounded-lg">
         <Container
           className="w-full lg:w-[25%] pt-12 py-5 relative"
